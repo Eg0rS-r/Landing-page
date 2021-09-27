@@ -1,0 +1,154 @@
+.pros--mobile {
+  display: none;
+}
+
+.pricing {
+  padding: 4.875rem 0;
+}
+
+.pricing__header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.pricing__header--mobile {
+  display: none;
+}
+
+.plan-change {
+  margin-bottom: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .25em;
+  color: var(--secondary-color);
+}
+
+.plan-change__button {
+  background: none;
+  color: var(--secondary-color);
+}
+
+.plan-change__button--active {
+  position: relative;
+  color: var(--primary-color);
+}
+
+.plan-change__button--active::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  left: 0;
+  bottom: 10%;
+  z-index: -1;
+  background: var(--mark-color);
+  border-radius: 999px;
+}
+
+.plans {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plan-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--text-default-invert);
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.plan-card:not(:last-child) {
+  margin-right: 1.875rem;
+}
+
+.plan-card--best {
+  position: relative;
+  box-shadow: 0px 8px 8px rgba(38, 50, 56, 0.12), 0px 16px 24px rgba(38, 50, 56, 0.08);
+}
+
+.plan-card--best::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  bottom: -1.875rem;
+  left: -1.875rem;
+  width: 12.5rem;
+  height: 7.875rem;
+  background-image: url(../image/pattern/Wiggle.png);
+}
+
+.plan-card--best::after {
+  content: "best!";
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  padding: 0.4rem 1.1rem;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  border: 1px var(--primary-color) solid;
+  border-radius: 99px;
+}
+
+.plan-card--best > button.plan-card__btn {
+  font-size: 1.5rem;
+  background-color: var(--primary-color);
+  color: var(--text-default-invert);
+}
+
+.plan-card__name {
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.plan-card__price {
+  margin-bottom: 1.6rem;
+}
+
+.pros {
+  flex: 1;
+  margin-bottom: 1.25rem;
+}
+
+.pros__item {
+  display: flex;
+}
+
+.pros__item:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+.pros__item::before {
+  content: "";
+  min-width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+  display: inline-block;
+  border-radius: 50%;
+  background-image: url(../image/icons/check.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.plan-card--best > ul.pros > li.pros__item::before {
+  background-color: var(--mark-color);
+}
+
+.plan-card--free > ul.pros > li.pros__item::before {
+  background-color: var(--secondary-color);
+}
+
+.plan-card--corporate > ul.pros > li.pros__item::before {
+  background-color: var(--mark-alter-color);
+}
+
+.plan-card__btn {
+  width: 100%;
+  border-radius: 1rem;
+  padding: .9rem 1.5rem;
+}

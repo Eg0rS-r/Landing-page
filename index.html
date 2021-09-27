@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style/main.css">
+
+  <link rel="stylesheet" href="./style/header.css">
+  <link rel="stylesheet" href="./style/logo.css">
+  <link rel="stylesheet" href="./style/advantages.css">
+  <link rel="stylesheet" href="./style/pricing.css">
+  <link rel="stylesheet" href="./style/footer.css">
+
+  <link rel="stylesheet" href="./style/mobile/mainMobile.css">
+  <link rel="stylesheet" href="./style/mobile/headerMobile.css">
+  <link rel="stylesheet" href="./style/mobile/advantagesMobile.css">
+  <link rel="stylesheet" href="./style/mobile/pricingMobile.css">
+  <link rel="stylesheet" href="./style/mobile/footerMobile.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container container--header">
+      <div class="logo h3">
+        <img class="logo__img" src="./image/logo-icon.svg" alt="logo icon">
+        <h3>Grid</h3>
+      </div>
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="p menu__item menu__item--active"><a href="#" class="menu__link">How it works</a></li>
+          <li class="p menu__item"><a href="#" class="menu__link">Who we are</a></li>
+          <li class="p menu__item"><a href="#" class="menu__link">What we do</a></li>
+          <li class="p menu__item"><a href="#" class="menu__link">Contact us</a></li>
+        </ul>
+      </nav>
+      <button class="btn btn-primary btn--header p-big p-bold">
+        Sign In
+      </button>
+    </div>
+  </header>
+
+  <section class="advantages">
+    <div class="container">
+      <h4 class="h4 advantages__header">Delivering good designs since 1954 🚚💨</h4>
+      <p class="p-big p"><span class="advantages-desktop">We’re the first multi-purpose design kit solutions for
+          businesses.</span> We help you bridge
+        gaps between your layouts, templates and developers to empower all involved.</p>
+      <ul class="advantages__list">
+        <li class="advantages__item">
+          <svg class="advantages__icon advantages__icon--pink" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M22.9381 14C23.9149 14.1906 24.8125 14.6683 25.5162 15.3719C26.2199 16.0756 26.6976 16.9733 26.8881 17.95M22.9381 10C24.9674 10.2254 26.8597 11.1342 28.3044 12.577C29.749 14.0198 30.6601 15.911 30.8881 17.94M29.8881 25.92V28.92C29.8892 29.1985 29.8322 29.4742 29.7206 29.7293C29.6091 29.9845 29.4454 30.2136 29.2402 30.4019C29.035 30.5901 28.7927 30.7335 28.5289 30.8227C28.265 30.9119 27.9855 30.9451 27.7081 30.92C24.631 30.5856 21.6751 29.5341 19.0781 27.85C16.6619 26.3147 14.6135 24.2662 13.0781 21.85C11.3881 19.2412 10.3364 16.271 10.0081 13.18C9.98313 12.9035 10.016 12.6248 10.1046 12.3616C10.1932 12.0985 10.3357 11.8567 10.5229 11.6516C10.7101 11.4466 10.9379 11.2827 11.1919 11.1705C11.4459 11.0583 11.7205 11.0003 11.9981 11H14.9981C15.4834 10.9952 15.9539 11.1671 16.3219 11.4835C16.6898 11.8 16.9302 12.2394 16.9981 12.72C17.1247 13.6801 17.3596 14.6227 17.6981 15.53C17.8327 15.8879 17.8618 16.2769 17.782 16.6509C17.7023 17.0248 17.517 17.3681 17.2481 17.64L15.9781 18.91C17.4017 21.4135 19.4746 23.4864 21.9781 24.91L23.2481 23.64C23.52 23.3711 23.8633 23.1858 24.2372 23.1061C24.6112 23.0263 25.0002 23.0555 25.3581 23.19C26.2654 23.5286 27.2081 23.7634 28.1681 23.89C28.6539 23.9585 29.0975 24.2032 29.4146 24.5775C29.7318 24.9518 29.9003 25.4296 29.8881 25.92Z"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <div class="advantages__info">
+            <p class="advantages__title p p-big p-bold">Support</p>
+            <p class="advantages__text p">Delivering faster and more personalized support with shared screens and cool
+              design systems for
+              Figma</p>
+          </div>
+          <button class="btn btn--secondary p p-bold advantages__button">Learn more</button>
+        </li>
+        <li class="advantages__item">
+          <svg class="advantages__icon advantages__icon--blue" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M29.2104 23.89C28.5742 25.3945 27.5792 26.7202 26.3123 27.7513C25.0454 28.7824 23.5452 29.4874 21.9428 29.8048C20.3405 30.1221 18.6848 30.0421 17.1205 29.5718C15.5563 29.1014 14.131 28.2551 12.9694 27.1066C11.8078 25.9582 10.9452 24.5427 10.457 22.9839C9.96886 21.4251 9.86996 19.7705 10.169 18.1646C10.468 16.5588 11.1559 15.0506 12.1724 13.772C13.189 12.4934 14.5033 11.4833 16.0004 10.83"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path
+              d="M30.0004 20C30.0004 18.6868 29.7417 17.3864 29.2392 16.1732C28.7366 14.9599 28 13.8575 27.0714 12.9289C26.1428 12.0003 25.0405 11.2638 23.8272 10.7612C22.6139 10.2587 21.3136 10 20.0004 10V20H30.0004Z"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <div class="advantages__info">
+            <p class="advantages__title p p-big p-bold">Sales growth</p>
+            <p class="advantages__text p">Identify qualified customers with easy-to-use live chat messaging and AI-based
+              Sales Bot</p>
+          </div>
+          <button class="btn btn--secondary p p-bold advantages__button">Learn more</button>
+        </li>
+        <li class="advantages__item">
+          <svg class="advantages__icon advantages__icon--purple" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+            <path d="M21 10L11 22H20L19 30L29 18H20L21 10Z" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+          <div class="advantages__info">
+            <p class="advantages__title p p-big p-bold">Coponents-driven</p>
+            <p class="advantages__text p">Delivering faster and more personalized support with shared screens and cool
+              design systems for
+              Figma</p>
+          </div>
+          <button class="btn btn--secondary p p-bold advantages__button">Learn more</button>
+        </li>
+        <li class="advantages__item">
+          <svg class="advantages__icon advantages__icon--green" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M15 30H12C11.4696 30 10.9609 29.7893 10.5858 29.4142C10.2107 29.0391 10 28.5304 10 28V21C10 20.4696 10.2107 19.9609 10.5858 19.5858C10.9609 19.2107 11.4696 19 12 19H15M22 17V13C22 12.2044 21.6839 11.4413 21.1213 10.8787C20.5587 10.3161 19.7956 10 19 10L15 19V30H26.28C26.7623 30.0055 27.2304 29.8364 27.5979 29.524C27.9654 29.2116 28.2077 28.7769 28.28 28.3L29.66 19.3C29.7035 19.0134 29.6842 18.7207 29.6033 18.4423C29.5225 18.1638 29.3821 17.9063 29.1919 17.6875C29.0016 17.4687 28.7661 17.2939 28.5016 17.1752C28.2371 17.0565 27.9499 16.9967 27.66 17H22Z"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <div class="advantages__info">
+            <p class="advantages__title p p-big p-bold">Swap the icon</p>
+            <p class="advantages__text p">You can toggle to any icon within Instances and customize outlined stroke to
+              more bolder or
+              lighter</p>
+          </div>
+          <button class="btn btn--secondary p p-bold advantages__button">Learn more</button>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="pricing">
+    <div class="container">
+
+      <h2 class="h2 pricing__header pricing__header--desktop">Affordable pricing</h2>
+      <h2 class="h2 pricing__header pricing__header--mobile">Pricing</h2>
+      <div class="h4 plan-change">
+        <span>Bill me</span>
+        <button class="h4 plan-change__button plan-change__button--active">monthly</button>
+        <div class="dot"></div>
+        <button class="h4 plan-change__button">yearly</button>
+      </div>
+      <ul class="plans">
+        <li class="plan-card plan-card--free">
+          <p class="p p-bold plan-card__name">Like a pussy</p>
+          <div class="plan-card__price">
+            <span class="h3">Free </span>
+            <span class="minicaps">/ forever</span>
+          </div>
+          <ul class="pros pros--desktop">
+            <li class="p pros__item">Components-driven system</li>
+            <li class="p pros__item">Sales-boosting landing pages</li>
+            <li class="p pros__item">Awesome Feather icons pack</li>
+          </ul>
+          <ul class="pros pros--mobile">
+            <li class="p pros__item">Unlimited hosting</li>
+            <li class="p pros__item">Free storage</li>
+            <li class="p pros__item">Lifetime support</li>
+            <li class="p pros__item">Constant updates</li>
+          </ul>
+          <button class="p p-bold plan-card__btn">Try for free</button>
+        </li>
+        <li class="plan-card plan-card--shadow plan-card--best">
+          <p class="p p-bold plan-card__name">👤 Individual</p>
+          <div class="plan-card__price">
+            <span class="h3">$24</span>
+            <span class="minicaps"> / month</span>
+          </div>
+          <ul class="pros pros--desktop">
+            <li class="p pros__item">Components-driven system</li>
+            <li class="p pros__item">Sales-boosting landing pages</li>
+            <li class="p pros__item">Awesome Feather icons pack</li>
+            <li class="p pros__item">Themed into 3 different styles</li>
+            <li class="p pros__item">Will help to learn Figma</li>
+          </ul>
+          <ul class="pros pros--mobile">
+            <li class="p pros__item">Unlimited hosting</li>
+            <li class="p pros__item">Free storage</li>
+            <li class="p pros__item">Lifetime support</li>
+            <li class="p pros__item">Constant updates</li>
+          </ul>
+          <button class="p p-bold plan-card__btn">Regular license</button>
+        </li>
+        <li class="plan-card plan-card--corporate">
+          <p class="p p-bold plan-card__name">👥 Corporate</p>
+          <div class="plan-card__price">
+            <span class="h3">$12</span>
+            <span class="minicaps"> / editor</span>
+          </div>
+          <ul class="pros pros--desktop">
+            <li class="p pros__item">Components-driven system</li>
+            <li class="p pros__item">Sales-boosting landing pages</li>
+            <li class="p pros__item">Awesome Feather icons pack</li>
+            <li class="p pros__item">Themed into 3 different styles</li>
+          </ul>
+          <ul class="pros pros--mobile">
+            <li class="p pros__item">Unlimited hosting</li>
+            <li class="p pros__item">Free storage</li>
+            <li class="p pros__item">Lifetime support</li>
+            <li class="p pros__item">Constant updates</li>
+          </ul>
+          <button class="p p-bold plan-card__btn">Extended license</button>
+        </li>
+      </ul>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="p-medium copyright footer-mobile">
+          Copyright © 2018 • Your Company<br>
+          All rights reserved
+        </div>
+        <div class="follow-social">
+          <p class="minicaps footer-content__title footer-content__title footer-desktop">follow us</p>
+          <ul class="follow-social__list">
+            <li class="follow-social__item">
+              <a class="follow-social__link" href="#">
+                <img src="./image/icons/footer/icon-facebook.svg" alt="facebook icon" class="follow-social__icon">
+              </a>
+            </li>
+            <li class="follow-social__item">
+              <a class="follow-social__link" href="#">
+                <img src="./image/icons/footer/icon-linkedin.svg" alt="linkedin icon" class="follow-social__icon">
+              </a>
+            </li>
+            <li class="follow-social__item">
+              <a class="follow-social__link" href="#">
+                <img src="./image/icons/footer/icon-slack.svg" alt="slack icon" class="follow-social__icon">
+              </a>
+            </li>
+            <li class="follow-social__item">
+              <a class="follow-social__link" href="#">
+                <img src="./image/icons/footer/icon-twitter.svg" alt="twitter icon" class="follow-social__icon">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="follow-mail">
+          <p class="minicaps footer-content__title footer-desktop">follow us</p>
+          <a href="mailto: s4reg0r@gmail.com" class="h4 follow-mail__email">s4reg0r@gmail.com</a>
+        </div>
+        <div class="information-footer footer-desktop">
+          <p class="minicaps footer-content__title">information</p>
+          <ul class="site-map">
+            <li class="site-map__item"><a href="#" class="p-small site-map__link">About Fapster app</a></li>
+            <li class="site-map__item"><a href="#" class="p-small site-map__link">Get in Touch</a></li>
+            <li class="site-map__item"><a href="#" class="p-small site-map__link">Things We Like</a></li>
+            <li class="site-map__item"><a href="#" class="p-small site-map__link">Onhovered / Active</a></li>
+            <li class="site-map__item"><a href="#" class="p-small site-map__link">Privacy Policy</a></li>
+            <li class="site-map__item"><a href="#" class="p-small site-map__link">Terms of Service</a></li>
+            <li class="site-map__item"><a href="#" class="p-small site-map__link">We are hiring!</a></li>
+            <li class="site-map__item"><a href="#" class="p-small site-map__link">Resources</a></li>
+          </ul>
+        </div>
+        <div class="keep-in-touch footer-desktop">
+          <p class="minicaps footer-content__title">keep in touch</p>
+          <form class="contact">
+            <div class="input-icon input-icon--user"><input class="contact__name" type="text" name="userName"
+                aria-label="Your name" placeholder="Your name"></div>
+            <div class="input-icon input-icon--email"><input class="contact__name" type="text" name="userEmail"
+                aria-label="E-mail" placeholder="E-mail"></div>
+            <div class="contact__wide">
+              <div class="contact__textarea input-icon input-icon--edit"><textarea name="userMessage"
+                  placeholder="Some words..."></textarea></div>
+              <button class="p p-big p-bold btn-primary contact__btn">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

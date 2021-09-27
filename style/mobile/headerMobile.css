@@ -1,0 +1,10 @@
+@media (max-width: 1125px) {
+  .menu {
+    position: absolute;
+    right: 100%;
+  }
+
+  .btn--header {
+    border-radius: .6rem;
+  }
+}

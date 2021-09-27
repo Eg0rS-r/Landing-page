@@ -1,0 +1,188 @@
+/* COLOR */
+
+:root {
+  --text-default: #2D3436;
+  --text-default-invert: #FFF;
+  --primary-color: #6C5CE7;
+  --mark-color: #FDCB6E;
+  --mark-alter-color: #ADF7E3;
+  --secondary-color: #ADADAD;
+  --secondary-soft-color: #F0F0F0;
+}
+
+
+/* BASE */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 100vw;
+  position: relative;
+  overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: var(--text-default);
+  background-color: var(--text-default-invert);
+}
+
+ul > li {
+  list-style-type: none;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+}
+
+textarea, input {
+  width: 100%;
+  padding: .7em 1em;
+  padding-right: 3em;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  background-color: var(--secondary-soft-color);
+  font-size: 1.125rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+.input-icon {
+  position: relative;
+}
+
+.input-icon::after {
+  content: '';
+  position: absolute;
+  right: .7rem;
+  top: .25rem;
+  /* transform: translateY(-50%); */
+  width: 2.22em;
+  height: 2.22em;
+  background-size: cover;
+}
+
+.input-icon--user::after {
+  background-image: url(../image/icons/form/icon-user.png);
+}
+
+.input-icon--email::after {
+  background-image: url(../image/icons/form/icon-mail.png);
+}
+
+.input-icon--edit::after {
+  background-image: url(../image/icons/form/icon-edit.png);
+}
+
+.not-desktop {
+  display: none;
+}
+
+
+/* CUSTOM BASE */
+
+.container {
+  max-width: 81.25vw;
+  margin: 0 auto;
+}
+
+.dot {
+  width: .6rem;
+  height: .6rem;
+  display: inline-block;
+  border-radius: 50%;
+  background: var(--secondary-color);
+}
+
+
+/* TYPOGRAPHY */
+
+.h1 {
+  font-size: 6rem;
+  font-weight: 800;
+  letter-spacing: -3px;
+  line-height: 6.5rem;
+}
+
+.h2 {
+  font-size: 4rem;
+  font-weight: 900;
+  letter-spacing: -1px;
+}
+
+.h3 {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 3.5rem;
+}
+
+.h4 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 3rem;
+}
+
+.p {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+.p-small {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+
+.p-medium {
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+.p-big {
+  font-size: 1.5rem;
+}
+
+.p-bold {
+  font-weight: 700;
+}
+
+.p-mobile {
+  font-size: 0.75rem;
+  line-height: 1.375rem;
+}
+
+.minicaps {
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+}
+
+
+/* BUTTON */
+
+.btn {
+  height: fit-content;
+  border-radius: .8em;
+  cursor: pointer;
+  padding: .3em 1.1em;
+}
+
+.btn-primary {
+  color: var(--text-default-invert);
+  background-color: var(--primary-color);
+}
+
+.btn--secondary {
+  color: var(--primary-color);
+  background: none;
+  border: 1px solid var(--secondary-color);
+}

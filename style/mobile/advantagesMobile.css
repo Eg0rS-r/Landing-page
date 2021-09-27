@@ -1,0 +1,19 @@
+@media (max-width: 900px) {
+  .advantages-desktop {
+    display: none;
+  }
+
+  .advantages__list {
+    row-gap: 3.33rem;
+  }
+
+  .advantages__item {
+    min-width: 19rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .advantages__item {
+    min-width: 12rem;
+  }
+}
