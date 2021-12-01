@@ -1,4 +1,4 @@
-@media (max-width: 1125px) {
+@container (max-width: 1125px) {
   .menu {
     position: absolute;
     right: 100%;

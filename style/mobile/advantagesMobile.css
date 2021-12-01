@@ -1,4 +1,4 @@
-@media (max-width: 900px) {
+@container (max-width: 900px) {
   .advantages-desktop {
     display: none;
   }
@@ -12,7 +12,7 @@
   }
 }
 
-@media (max-width: 650px) {
+@container (max-width: 650px) {
   .advantages__item {
     min-width: 12rem;
   }

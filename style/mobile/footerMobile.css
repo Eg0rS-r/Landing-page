@@ -1,4 +1,4 @@
-@media (max-width: 1125px) {
+@container (max-width: 1125px) {
   .footer::before {
     height: 9.25rem;
     background-image: url(../../image/footerMobile.png);
@@ -7,7 +7,7 @@
   }
 }
 
-@media (max-width: 900px) {
+@container (max-width: 900px) {
   .footer {
     padding: 3.33rem 1rem;
   }
