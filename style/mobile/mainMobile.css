@@ -1,4 +1,4 @@
-@container (max-width: 1125px) {
+@media (max-width: 1125px) {
   body {
     font-size: 12px;
   }
